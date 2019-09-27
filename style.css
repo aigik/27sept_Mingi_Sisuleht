@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #263238;
+}
+
+.container{
+    display:flex;
+}
+
+.margin-left--auto{
+    display: flex;
+    margin-left: auto
+}
+
+.banner{
+    background:url('https://www.inkedmag.com/.image/t_share/MTY0ODkyNDMyNzQ2NDIzMzkx/screen-shot-2019-06-19-at-110933-am.png')
+}
