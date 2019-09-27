@@ -12,6 +12,7 @@ body{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	color: #263238;
+    background:#e4e2e2;
 }
 
 .container{
@@ -48,7 +49,7 @@ h1{
     font-family:'Cormorant Garamond', serif;
     font-size:50pt;
     padding-left:35px;
-    padding-top:40px;
+    padding-top:100px;
     margin:0;
 }
 
@@ -59,5 +60,42 @@ h3{
 }
 
 .latestWork_pictures{
-    width:100px;
+    display:flex;
+    justify-content:center;
+}
+
+.LW_picture{
+    width:200px;
+}
+
+.pictureLatest{
+    display:flex;
+}
+.picturesAndText{
+    padding:30px;
+}
+
+.picturesAndWWD{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.WWD_picture{
+    width:350px;
+}
+
+.whatWeDo_pictures{
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+p{
+    padding:30px;
+    font-family:'Cormorant+Garamond', serif;
+    padding-top:50px;
+}
+
+.Title2{
+    text-align:center;
 }
